@@ -176,7 +176,8 @@ nav ul li a:hover::after {
 .projects {
   padding: 50px 0;
   width: 100%;
-  height: 100vh;
+  height: max-content;
+  display: block;
 }
 
 .work-list {
@@ -224,4 +225,15 @@ nav ul li a:hover::after {
 .layer a .preview-icon {
   color: black;
   margin-top: 20p;
+}
+
+/* ------------- Contact ---------------- */
+
+.contact {
+  width: 100%;
+  height: 100vh;
+}
+
+.contact-left {
+  flex-basis: 35%;
 }
