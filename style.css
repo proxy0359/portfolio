@@ -319,6 +319,13 @@ form textarea {
   margin-bottom: 10rem;
 }
 
+#success {
+  margin-top: 20px;
+  display: block;
+  color: green;
+  margin-left: 1px;
+}
+
 @media (max-width: 990px) {
   .header-text {
     text-align: center;
