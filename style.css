@@ -55,6 +55,7 @@ nav {
 
 nav ul {
   display: flex;
+  margin-bottom: 0;
 }
 
 nav ul li a::after {
