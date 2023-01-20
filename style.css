@@ -353,6 +353,11 @@ form textarea {
     height: 130vh;
   }
 }
+@media (max-height: 717px) {
+  .skills-container {
+    height: 180vh;
+  }
+}
 
 @media (max-width: 990px) {
   .header-text {
