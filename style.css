@@ -101,11 +101,13 @@ nav ul li a:hover::after {
 .about {
   width: 100%;
   height: 50vh;
-  margin-top: 100px;
+  margin-bottom: 120px;
+  padding-top: 10rem;
 }
 
 .about h2 {
   flex-basis: 35%;
+
   text-align: center;
 }
 
@@ -143,7 +145,7 @@ nav ul li a:hover::after {
   text-align: center;
   font-size: 60px !important;
   margin: auto;
-  margin-top: 5rem;
+  margin-top: 10rem;
 }
 .skills-container {
   width: 100%;
