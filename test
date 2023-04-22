@@ -1,0 +1,165 @@
+<div class="col-6 position-relative d-flex justify-content-between">
+  <div class="d-grid grid-co"></div>
+  <img
+    src="./pictures/fashion_frenzy.png"
+    alt="Ecommerce website "
+    class="position-absolute h-100"
+  />
+
+  <img
+    src="./pictures/fsahionFrenzy-mobile.png"
+    alt="Ecommerce website "
+    class="d-block mobile position-absolute h-100"
+  />
+</div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <!-- TITLE -->
+      <h1 class="projectsTitle">PROJECTS</h1>
+
+      <!-- FASHION FRENZY -->
+      <div class="work-list">
+        <div class="work">
+          <img src="./pictures/fashion_frenzy.png" alt="Ecommerce website " />
+
+          <div class="layer">
+            <div class="project-info">
+              <h3>Fashion frenzy</h3>
+              <p class="mb">
+                I built Fashion Frenzy, a Clothes E-commerce website using React
+                and other related technologies, showcasing my expertise in
+                creating dynamic and user-friendly web applications.
+              </p>
+            </div>
+
+            <div class="projectLinks">
+              <a href="https://fashionfrenzy.vercel.app/home" target="_blank"
+                ><iconify-icon
+                  class="preview-icon"
+                  icon="gg:website"
+                  style="color: white"
+                ></iconify-icon
+                >&nbsp;&nbsp;Preview</a
+              ><a
+                href="https://github.com/proxy0359/Fashion-Frenzy"
+                target="_blank"
+                ><iconify-icon
+                  icon="mdi:github"
+                  style="color: white"
+                ></iconify-icon
+                >&nbsp;&nbsp;Github</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- EXPENSE TRACKER -->
+        <div class="work">
+          <img src="./pictures/expense-tracker.png" alt="" />
+          <div class="layer">
+            <div class="project-info">
+              <h3>Expense Tracker App</h3>
+              <p>
+                I created this project to showcases my skills in web development
+                using React, React Hooks, JavaScript, and CSS, creating modern
+                websites.
+              </p>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://expense-tracker-g9fl7zdi8-proxy0359.vercel.app/"
+                target="_blank"
+                ><iconify-icon
+                  class="preview-icon"
+                  icon="gg:website"
+                  style="color: white"
+                ></iconify-icon
+                >&nbsp;&nbsp;Preview</a
+              ><a
+                href="https://github.com/proxy0359/Expense-tracker"
+                target="_blank"
+                ><iconify-icon
+                  icon="mdi:github"
+                  style="color: white"
+                ></iconify-icon
+                >&nbsp;&nbsp;Github</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- RESTO NI PEDRO PROJECT -->
+        <div class="work">
+          <img src="./pictures/resto-ni-pedro.png" alt="" />
+          <div class="layer">
+            <div class="project-info">
+              <h3>Resto ni pedro</h3>
+              <p>
+                Resto Ni Pedro is a React project that demonstrates my
+                proficiency in creating dynamic interfaces using React Context
+                and the latest web development technologies.
+              </p>
+            </div>
+
+            <div class="project-links">
+              <a href="https://resto-ni-pedro-kappa.vercel.app/" target="_blank"
+                ><iconify-icon
+                  class="preview-icon"
+                  icon="gg:website"
+                  style="color: white"
+                ></iconify-icon
+                >&nbsp;&nbsp;Preview</a
+              ><a
+                href="https://github.com/proxy0359/resto-ni-pedro"
+                target="_blank"
+                ><iconify-icon
+                  icon="mdi:github"
+                  style="color: white"
+                ></iconify-icon
+                >&nbsp;&nbsp;Github</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- QUOTES APP PROJECT -->
+        <div class="work">
+          <img src="./pictures/quotes-app.png" alt="" />
+          <div class="layer">
+            <div class="project-info">
+              <h3>QUOTES</h3>
+              <p>
+                My QUOTES project is a modern website that showcases my skills
+                in React, React Router, Firebase, and RESTful API technologies
+                to create dynamic and responsive web applications.
+              </p>
+            </div>
+
+            <a
+              href="https://quotes-2wa0eid50-proxy0359.vercel.app/quotes"
+              target="_blank"
+              ><iconify-icon
+                class="preview-icon"
+                icon="gg:website"
+                style="color: white"
+              ></iconify-icon
+              >&nbsp;&nbsp;Preview</a
+            ><a
+              href="https://github.com/proxy0359/reactRouter-proj"
+              target="_blank"
+              ><iconify-icon
+                icon="mdi:github"
+                style="color: white"
+              ></iconify-icon
+              >&nbsp;&nbsp;Github</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

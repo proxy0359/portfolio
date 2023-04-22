@@ -21,6 +21,7 @@ body {
 /* ------------------------ HEADER ---------------------------- */
 
 .container-fluid {
+  z-index: 10;
   background: #080808;
   position: fixed;
   padding: 0 5rem;
@@ -48,10 +49,12 @@ body {
 }
 
 nav {
+  position: sticky;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  z-index: 10;
 }
 
 .logo {
@@ -228,9 +231,18 @@ nav ul li a:hover::after {
   display: block;
 }
 
+/* .layer {
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 14px;
+} */
+
 .layer {
-  text-align: center;
-  margin: 20px 0;
+  margin: 10rem 0;
 }
 
 .layer a {
@@ -242,6 +254,7 @@ nav ul li a:hover::after {
   border-radius: 5px;
   padding: 5px 20px;
   display: inline-block;
+  margin-left: -1px;
 }
 
 .layer a:hover {
@@ -354,11 +367,43 @@ form textarea {
   margin-left: 1px;
 }
 
+/* PROJECTS */
+
+.projectCard {
+  margin: auto;
+  width: 100%;
+  height: 15rem;
+}
+
+.project-Image {
+  display: block;
+  width: 400px;
+  height: 240px;
+
+  overflow: hidden;
+}
+
+.project-flex {
+  width: 100%;
+  height: 100%;
+  margin: 4rem 2rem;
+}
+
+.image-container {
+  width: 100%;
+  height: 20rem;
+}
+
+.width-min {
+  width: 85%;
+}
+
 @media (max-height: 640px) {
   .skills-container {
     height: 130vh;
   }
 }
+
 @media (max-height: 717px) {
   .skills-container {
     height: 180vh;
