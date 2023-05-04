@@ -476,6 +476,14 @@ form textarea {
 }
 
 @media (max-width: 640px) {
+  .layer {
+    margin: 2rem 0;
+  }
+
+  #skills {
+    margin: 10rem 0;
+  }
+
   .project-info {
     text-align: center;
     margin: auto;
